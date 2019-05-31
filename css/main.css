@@ -3,7 +3,8 @@
 /* Mixins */
 /* End Mixins */
 nav {
-  background-color: white; }
+  background-color: white;
+  border-bottom: 1px solid #7f7f7f; }
 
 .logo {
   width: 2rem;
@@ -11,7 +12,7 @@ nav {
 
 a.button {
   display: block;
-  color: #4a4a4a;
+  color: #7f7f7f;
   text-decoration: none;
   border: 1px solid #f6a2b6;
   width: 100%;
