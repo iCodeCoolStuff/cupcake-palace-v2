@@ -1,11 +1,45 @@
 /* Variables */
 
 $hero-darkness: 0.3;
+$cp-pink: #f6a2b6;
+$cp-light-pink: #fde8ed;
+$font-color: #4a4a4a;
 
+/* End Variables */
+
+/* Mixins */
+
+@mixin card-img($img-src) {
+  background-image: url($img-src);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 10.5rem;
+}
+
+/* End Mixins */
 
 .logo {
   width: 2rem;
   height: 2rem;
+}
+
+a.button {
+  display: block;
+  color: $font-color;
+  text-decoration: none;
+  border: 1px solid $cp-pink;
+  width: 100%;
+  max-width: 14rem;
+  padding: 1rem 0;
+  text-align: center;
+  font-weight: 600;
+  text-transform: uppercase;
+
+  &:hover {
+    background-color: $cp-light-pink;
+  }
 }
 
 #hero {
@@ -17,3 +51,26 @@ $hero-darkness: 0.3;
   background-size: cover;
   background-repeat: no-repeat;
 } 
+
+#intro {
+  box-sizing: border-box;
+
+  .card {
+    box-sizing: border-box;
+    height: 100%;
+    border: 1px solid $cp-pink;
+    border-radius: 0px;
+  }
+
+  .card-img-1{
+    @include card-img('../img/cupcakes-1.jpeg')
+  }
+
+  .card-img-2{
+    @include card-img('../img/cupcakes-2.jpeg')
+  }
+
+  .card-img-3{
+    @include card-img('../img/cupcakes-3.jpeg')
+  }
+}

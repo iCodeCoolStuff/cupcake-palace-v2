@@ -1,7 +1,24 @@
 /* Variables */
+/* End Variables */
+/* Mixins */
+/* End Mixins */
 .logo {
   width: 2rem;
   height: 2rem; }
+
+a.button {
+  display: block;
+  color: #4a4a4a;
+  text-decoration: none;
+  border: 1px solid #f6a2b6;
+  width: 100%;
+  max-width: 14rem;
+  padding: 1rem 0;
+  text-align: center;
+  font-weight: 600;
+  text-transform: uppercase; }
+  a.button:hover {
+    background-color: #fde8ed; }
 
 #hero {
   width: 100%;
@@ -9,3 +26,32 @@
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/hero-bg.jpeg");
   background-size: cover;
   background-repeat: no-repeat; }
+
+#intro {
+  box-sizing: border-box; }
+  #intro .card {
+    box-sizing: border-box;
+    height: 100%;
+    border: 1px solid #f6a2b6;
+    border-radius: 0px; }
+  #intro .card-img-1 {
+    background-image: url("../img/cupcakes-1.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 10.5rem; }
+  #intro .card-img-2 {
+    background-image: url("../img/cupcakes-2.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 10.5rem; }
+  #intro .card-img-3 {
+    background-image: url("../img/cupcakes-3.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 10.5rem; }
