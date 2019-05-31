@@ -2,6 +2,9 @@
 /* End Variables */
 /* Mixins */
 /* End Mixins */
+nav {
+  background-color: white; }
+
 .logo {
   width: 2rem;
   height: 2rem; }
