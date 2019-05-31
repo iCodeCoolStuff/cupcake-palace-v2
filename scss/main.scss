@@ -1,4 +1,19 @@
+/* Variables */
+
+$hero-darkness: 0.3;
+
+
 .logo {
   width: 2rem;
   height: 2rem;
 }
+
+#hero {
+  width: 100%;
+  height: 100vh;
+
+  background: linear-gradient( rgba(0, 0, 0, $hero-darkness), rgba(0, 0, 0, $hero-darkness)),
+  url('../img/hero-bg.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+} 
