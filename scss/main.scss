@@ -65,17 +65,91 @@ a.button {
     height: 100%;
     border: 1px solid $cp-pink;
     border-radius: 0px;
-  }
 
-  .card-img-1{
-    @include card-img('../img/cupcakes-1.jpeg')
+    h5 {
+      font-weight: 550;
+    }
   }
+}
 
-  .card-img-2{
-    @include card-img('../img/cupcakes-2.jpeg')
-  }
+#testimonials {
+  background-image: url('../img/treats-bg.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
 
-  .card-img-3{
-    @include card-img('../img/cupcakes-3.jpeg')
+  .card {
+    box-sizing: border-box;
+    height: 100%;
+    border-radius: 0px;
+    border: none;
+
+    h5 {
+      font-weight: 550;
+    }
   }
+}
+
+.pill {
+  display: inline-flex;
+  align-items: center;
+  box-sizing: border-box;
+
+  background-color: #e0e0e0;
+  border-radius: 1rem;
+  padding-right: 0.75rem;
+
+  img.person {
+    height: 2rem;
+    width: 2rem;
+
+    margin-left: -0.75rem;
+    margin-right: 0.5rem;
+
+  }
+}
+
+.rating {
+  display: inline-flex;
+  box-sizing: border-box;
+  font-size: 0.75rem;
+  color: white;
+  padding-left: 0.5rem;
+
+  i.fa-star {
+    background-color: #ff9d3d;
+    padding: 0.125em 0.125em;
+    margin: 0 0.125em;
+  }
+}
+
+
+
+/* Card Images */
+
+.card-img-1{
+  @include card-img('../img/cupcakes-1.jpeg')
+}
+
+.card-img-2{
+  @include card-img('../img/cupcakes-2.jpeg')
+}
+
+.card-img-3{
+  @include card-img('../img/cupcakes-3.jpeg')
+}
+
+.card-img-4 {
+  @include card-img('../img/pretzel-cupcakes.jpeg');
+}
+
+.card-img-5 {
+  @include card-img('../img/chocolate-cupcake-tray.jpeg');
+}
+
+.card-img-6 {
+  @include card-img('../img/brownie-berry-drizzle.png');
+}
+
+.card-img-7 {
+  @include card-img('../img/vanilla-cupcake-tray.jpeg');
 }
