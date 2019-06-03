@@ -38,24 +38,108 @@ a.button {
     height: 100%;
     border: 1px solid #f6a2b6;
     border-radius: 0px; }
-  #intro .card-img-1 {
-    background-image: url("../img/cupcakes-1.jpeg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    min-height: 10.5rem; }
-  #intro .card-img-2 {
-    background-image: url("../img/cupcakes-2.jpeg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    min-height: 10.5rem; }
-  #intro .card-img-3 {
-    background-image: url("../img/cupcakes-3.jpeg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    min-height: 10.5rem; }
+    #intro .card h5 {
+      font-weight: 550; }
+
+#testimonials {
+  background-image: url("../img/treats-bg.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+  #testimonials .card {
+    box-sizing: border-box;
+    height: 100%;
+    border-radius: 0px;
+    border: none; }
+    #testimonials .card h5 {
+      font-weight: 550; }
+
+.pill {
+  display: inline-flex;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: #e0e0e0;
+  border-radius: 1rem;
+  padding-right: 0.75rem; }
+  .pill img.person {
+    height: 2rem;
+    width: 2rem;
+    margin-left: -0.25rem;
+    margin-right: 0.5rem; }
+
+.rating {
+  display: inline-flex;
+  box-sizing: border-box;
+  font-size: 0.75rem;
+  color: white;
+  margin: 0; }
+  .rating i.fa-star {
+    background-color: #ff9d3d;
+    padding: 0.25rem;
+    margin: 0 0.125rem;
+    border-radius: 3px; }
+
+.five-star-rating i.fa-star {
+  background-color: #d32323; }
+
+.four-star-rating i.fa-star {
+  background-color: #f15c4f; }
+
+.rating i.fa-star.four-half-star {
+  background: linear-gradient(to right, #f15c4f 50%, #cccccc 50%); }
+
+/* Card Images */
+.card-img-1 {
+  background-image: url("../img/cupcakes-1.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 10.5rem; }
+
+.card-img-2 {
+  background-image: url("../img/cupcakes-2.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 10.5rem; }
+
+.card-img-3 {
+  background-image: url("../img/cupcakes-3.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 10.5rem; }
+
+.card-img-4 {
+  background-image: url("../img/pretzel-cupcakes.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 10.5rem; }
+
+.card-img-5 {
+  background-image: url("../img/chocolate-cupcake-tray.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 10.5rem; }
+
+.card-img-6 {
+  background-image: url("../img/brownie-berry-drizzle.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 10.5rem; }
+
+.card-img-7 {
+  background-image: url("../img/vanilla-cupcake-tray.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 10.5rem; }
