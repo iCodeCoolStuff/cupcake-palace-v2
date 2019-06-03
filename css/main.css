@@ -78,6 +78,15 @@ a.button {
     margin: 0 0.125rem;
     border-radius: 3px; }
 
+.five-star-rating i.fa-star {
+  background-color: #d32323; }
+
+.four-star-rating i.fa-star {
+  background-color: #f15c4f; }
+
+.rating i.fa-star.four-half-star {
+  background: linear-gradient(to right, #f15c4f 50%, #cccccc 50%); }
+
 /* Card Images */
 .card-img-1 {
   background-image: url("../img/cupcakes-1.jpeg");
