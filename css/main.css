@@ -10,7 +10,10 @@ nav {
   width: 2rem;
   height: 2rem; }
 
-a.button {
+.border-box {
+  box-sizing: border-box; }
+
+a.button, button.button {
   display: block;
   color: #4a4a4a;
   text-decoration: none;
@@ -21,8 +24,14 @@ a.button {
   text-align: center;
   font-weight: 600;
   text-transform: uppercase; }
-  a.button:hover {
+  a.button:hover, button.button:hover {
     background-color: #fde8ed; }
+
+button.button {
+  background-color: transparent;
+  outline: none; }
+  button.button:hover {
+    cursor: pointer; }
 
 #hero {
   width: 100%;
@@ -52,6 +61,9 @@ a.button {
     border: none; }
     #testimonials .card h5 {
       font-weight: 550; }
+
+.pink-border {
+  border: 1px solid #f6a2b6; }
 
 .pill {
   display: inline-flex;

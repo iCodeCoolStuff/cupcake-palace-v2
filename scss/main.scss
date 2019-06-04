@@ -30,6 +30,10 @@ nav {
   height: 2rem;
 }
 
+.border-box {
+  box-sizing: border-box;
+}
+
 a.button {
   display: block;
   color: $font-color;
@@ -44,6 +48,17 @@ a.button {
 
   &:hover {
     background-color: $cp-light-pink;
+  }
+}
+
+button.button {
+  @extend a.button;
+  background-color: transparent;
+  outline: none;
+
+  &:hover {
+    cursor: pointer;
+
   }
 }
 
@@ -87,6 +102,10 @@ a.button {
       font-weight: 550;
     }
   }
+}
+
+.pink-border {
+  border: 1px solid $cp-pink;
 }
 
 .pill {
