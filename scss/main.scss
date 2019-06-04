@@ -30,6 +30,10 @@ nav {
   height: 2rem;
 }
 
+.border-box {
+  box-sizing: border-box;
+}
+
 a.button {
   display: block;
   color: $font-color;
@@ -100,10 +104,8 @@ button.button {
   }
 }
 
-#newsletter {
-  .container {
-    border: 1px solid $cp-pink;
-  }
+.pink-border {
+  border: 1px solid $cp-pink;
 }
 
 .pill {

@@ -10,6 +10,9 @@ nav {
   width: 2rem;
   height: 2rem; }
 
+.border-box {
+  box-sizing: border-box; }
+
 a.button, button.button {
   display: block;
   color: #4a4a4a;
@@ -59,7 +62,7 @@ button.button {
     #testimonials .card h5 {
       font-weight: 550; }
 
-#newsletter .container {
+.pink-border {
   border: 1px solid #f6a2b6; }
 
 .pill {
