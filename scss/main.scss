@@ -18,6 +18,35 @@ $font-color: #4a4a4a;
   min-height: 10.5rem;
 }
 
+@mixin social-icon($color, $icon) {
+  position: relative;
+  background-color: $color;
+  border-radius: 50%;
+
+  &::after {
+    position: absolute;
+    font-family: "Font Awesome 5 Free", "Font Awesome 5 Brands";
+    content: $icon;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+
+  opacity: 1;
+  
+  &:hover {
+    opacity: 0.6;
+    transition: opacity 0.3s ease-out;
+  }
+
+  &:active, &:focus {
+    outline: 0;
+    border: none;
+    -moz-outline-style: none;
+  }
+}
+
+
 /* End Mixins */
 
 nav {
@@ -160,6 +189,79 @@ button.button {
   }
 }
 
+footer {
+  background-color: #232323;
+  width: 100%;
+
+  a {
+    color: white;
+    text-decoration: none;
+
+    &:hover {
+      color: white;
+      text-decoration: none;
+    }
+
+    &:active {
+      color: white;
+    }
+
+    &:focus {
+      color: white;
+    }
+  }
+
+  .row {
+    text-align: center;
+  }
+
+  .footer-branding {
+    position: relative;
+    left: 1rem;
+
+    &::after {
+      content: url('../img/cupcake-logo-mini-white.png');
+      position: absolute;
+      right: 9rem;
+      top: -0.5rem;;
+    }
+  }
+
+  .footer-title {
+    font-size: 1.25rem;
+    width: auto;
+    height: auto;
+  }
+
+  p {
+    color: white;
+  }
+
+  hr {
+    background-color: white;
+  }
+
+  ul {
+    list-style: none;
+
+    li {
+      display: inline;
+      color: white;
+      font-size: 1.25rem;
+
+      a  {
+        display: inline-block;
+        width: 2rem;
+        height: 2rem;
+      }
+    }
+  }
+}
+
+.facebook {@include social-icon(#3B5998, "\f39e");}
+.twitter {@include social-icon(#1dcaff, "\f099");}
+.instagram {@include social-icon(#e1306c, "\f16d");}
+.snapchat {@include social-icon(#fffc00, "\f2ac");}
 
 /* Card Images */
 

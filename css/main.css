@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Variables */
 /* End Variables */
 /* Mixins */
@@ -98,6 +99,128 @@ button.button {
 
 .rating i.fa-star.four-half-star {
   background: linear-gradient(to right, #f15c4f 50%, #cccccc 50%); }
+
+footer {
+  background-color: #232323;
+  width: 100%; }
+  footer a {
+    color: white;
+    text-decoration: none; }
+    footer a:hover {
+      color: white;
+      text-decoration: none; }
+    footer a:active {
+      color: white; }
+    footer a:focus {
+      color: white; }
+  footer .row {
+    text-align: center; }
+  footer .footer-branding {
+    position: relative;
+    left: 1rem; }
+    footer .footer-branding::after {
+      content: url("../img/cupcake-logo-mini-white.png");
+      position: absolute;
+      right: 9rem;
+      top: -0.5rem; }
+  footer .footer-title {
+    font-size: 1.25rem;
+    width: auto;
+    height: auto; }
+  footer p {
+    color: white; }
+  footer hr {
+    background-color: white; }
+  footer ul {
+    list-style: none; }
+    footer ul li {
+      display: inline;
+      color: white;
+      font-size: 1.25rem; }
+      footer ul li a {
+        display: inline-block;
+        width: 2rem;
+        height: 2rem; }
+
+.facebook {
+  position: relative;
+  background-color: #3B5998;
+  border-radius: 50%;
+  opacity: 1; }
+  .facebook::after {
+    position: absolute;
+    font-family: "Font Awesome 5 Free", "Font Awesome 5 Brands";
+    content: "";
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%); }
+  .facebook:hover {
+    opacity: 0.6;
+    transition: opacity 0.3s ease-out; }
+  .facebook:active, .facebook:focus {
+    outline: 0;
+    border: none;
+    -moz-outline-style: none; }
+
+.twitter {
+  position: relative;
+  background-color: #1dcaff;
+  border-radius: 50%;
+  opacity: 1; }
+  .twitter::after {
+    position: absolute;
+    font-family: "Font Awesome 5 Free", "Font Awesome 5 Brands";
+    content: "";
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%); }
+  .twitter:hover {
+    opacity: 0.6;
+    transition: opacity 0.3s ease-out; }
+  .twitter:active, .twitter:focus {
+    outline: 0;
+    border: none;
+    -moz-outline-style: none; }
+
+.instagram {
+  position: relative;
+  background-color: #e1306c;
+  border-radius: 50%;
+  opacity: 1; }
+  .instagram::after {
+    position: absolute;
+    font-family: "Font Awesome 5 Free", "Font Awesome 5 Brands";
+    content: "";
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%); }
+  .instagram:hover {
+    opacity: 0.6;
+    transition: opacity 0.3s ease-out; }
+  .instagram:active, .instagram:focus {
+    outline: 0;
+    border: none;
+    -moz-outline-style: none; }
+
+.snapchat {
+  position: relative;
+  background-color: #fffc00;
+  border-radius: 50%;
+  opacity: 1; }
+  .snapchat::after {
+    position: absolute;
+    font-family: "Font Awesome 5 Free", "Font Awesome 5 Brands";
+    content: "";
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%); }
+  .snapchat:hover {
+    opacity: 0.6;
+    transition: opacity 0.3s ease-out; }
+  .snapchat:active, .snapchat:focus {
+    outline: 0;
+    border: none;
+    -moz-outline-style: none; }
 
 /* Card Images */
 .card-img-1 {
