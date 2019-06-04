@@ -1,6 +1,6 @@
 /* Variables */
 
-$hero-darkness: 0.2;
+$hero-darkness: 0.3;
 $cp-pink: #f6a2b6;
 $cp-light-pink: #fde8ed;
 $font-color: #4a4a4a;
@@ -77,6 +77,17 @@ a.button {
 
   &:hover {
     background-color: $cp-light-pink;
+  }
+}
+
+a.hero-button {
+  @extend a.button;
+  border: 1px solid white;
+  color: white;
+
+  &:hover {
+    background-color: white;
+    color: $font-color;
   }
 }
 
