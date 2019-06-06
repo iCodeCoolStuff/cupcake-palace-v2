@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+
 /* Variables */
 
 $hero-darkness: 0.3;
@@ -57,6 +59,10 @@ nav {
 .logo {
   width: 2rem;
   height: 2rem;
+}
+
+.cursive {
+  font-family: 'Pacifico';
 }
 
 .border-box {
