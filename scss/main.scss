@@ -232,18 +232,6 @@ footer {
     text-align: center;
   }
 
-  .footer-branding {
-    position: relative;
-    left: 1rem;
-
-    &::after {
-      content: url('../img/cupcake-logo-mini-white.png');
-      position: absolute;
-      right: 9rem;
-      top: -0.5rem;;
-    }
-  }
-
   .footer-title {
     font-size: 1.25rem;
     width: auto;
