@@ -116,6 +116,10 @@ button.button {
   url('../img/hero-bg.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
+
+  .hero-desc {
+    top: 1.25rem;
+  }
 } 
 
 #intro {
