@@ -284,3 +284,14 @@ footer {
   background-size: cover;
   width: 100%;
   min-height: 10.5rem; }
+
+/* Media Queries */
+@media (max-width: 991.98px) {
+  [class^=card-img-] {
+    min-height: 20rem; }
+  .bla {
+    box-sizing: content-box; }
+  .facebook, .instagram, .twitter, .snapchat {
+    font-size: 2rem;
+    width: 3rem;
+    height: 3rem; } }
