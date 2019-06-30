@@ -56,6 +56,11 @@ nav {
   box-shadow:0 0 3rem 0 #888888;
 }
 
+.anchor {
+  padding-top: 50px; /* Height of bootstrap navbar */
+  margin-top: -50px;
+}
+
 .logo {
   width: 2rem;
   height: 2rem;
