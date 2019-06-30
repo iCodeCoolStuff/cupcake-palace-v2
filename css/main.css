@@ -1,0 +1,301 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Pacifico&display=swap");
+/* Variables */
+/* End Variables */
+/* Mixins */
+/* End Mixins */
+nav {
+  background-color: white;
+  box-shadow: 0 0 3rem 0 #888888; }
+
+.logo {
+  width: 2rem;
+  height: 2rem; }
+
+.cursive {
+  font-family: 'Pacifico'; }
+
+.border-box {
+  box-sizing: border-box; }
+
+a.button, a.hero-button, button.button {
+  display: block;
+  color: #4a4a4a;
+  text-decoration: none;
+  border: 1px solid #f6a2b6;
+  width: 100%;
+  max-width: 14rem;
+  padding: 1rem 0;
+  text-align: center;
+  font-weight: 600;
+  text-transform: uppercase; }
+  a.button:hover, a.hero-button:hover, button.button:hover {
+    background-color: #fde8ed; }
+
+a.hero-button {
+  border: 1px solid white;
+  color: white; }
+  a.hero-button:hover {
+    background-color: white;
+    color: #4a4a4a; }
+
+button.button {
+  background-color: transparent;
+  outline: none; }
+  button.button:hover {
+    cursor: pointer; }
+
+#hero {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/hero-bg.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; }
+  #hero .hero-desc {
+    top: 1.25rem; }
+
+#intro {
+  box-sizing: border-box; }
+  #intro .card {
+    box-sizing: border-box;
+    height: 100%;
+    border: 1px solid #f6a2b6;
+    border-radius: 0px; }
+    #intro .card h5 {
+      font-weight: 550; }
+
+#testimonials {
+  background-image: url("../img/treats-bg.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+  #testimonials .card {
+    box-sizing: border-box;
+    height: 100%;
+    border-radius: 0px;
+    border: none; }
+    #testimonials .card h5 {
+      font-weight: 550; }
+
+.pink-border {
+  border: 1px solid #f6a2b6; }
+
+.pill {
+  display: inline-flex;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: #e0e0e0;
+  border-radius: 1rem;
+  padding-right: 0.75rem; }
+  .pill img.person {
+    height: 2rem;
+    width: 2rem;
+    margin-left: -0.25rem;
+    margin-right: 0.5rem; }
+
+.rating {
+  display: inline-flex;
+  box-sizing: border-box;
+  font-size: 0.75rem;
+  color: white;
+  margin: 0; }
+  .rating i.fa-star {
+    background-color: #ff9d3d;
+    padding: 0.25rem;
+    margin: 0 0.125rem;
+    border-radius: 3px; }
+
+.five-star-rating i.fa-star {
+  background-color: #d32323; }
+
+.four-star-rating i.fa-star {
+  background-color: #f15c4f; }
+
+.rating i.fa-star.four-half-star {
+  background: linear-gradient(to right, #f15c4f 50%, #cccccc 50%); }
+
+footer {
+  background-color: #232323;
+  width: 100%; }
+  footer a {
+    color: white;
+    text-decoration: none; }
+    footer a:hover {
+      color: white;
+      text-decoration: none; }
+    footer a:active {
+      color: white; }
+    footer a:focus {
+      color: white; }
+  footer .row {
+    text-align: center; }
+  footer .footer-title {
+    font-size: 1.25rem;
+    width: auto;
+    height: auto; }
+  footer p {
+    color: white; }
+  footer hr {
+    background-color: white; }
+  footer ul {
+    list-style: none; }
+    footer ul li {
+      display: inline;
+      color: white;
+      font-size: 1.25rem; }
+      footer ul li a {
+        display: inline-block;
+        width: 2rem;
+        height: 2rem; }
+
+.facebook {
+  position: relative;
+  background-color: #3B5998;
+  border-radius: 50%;
+  opacity: 1; }
+  .facebook::after {
+    position: absolute;
+    font-family: "Font Awesome 5 Free", "Font Awesome 5 Brands";
+    content: "";
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%); }
+  .facebook:hover {
+    opacity: 0.6;
+    transition: opacity 0.3s ease-out; }
+  .facebook:active, .facebook:focus {
+    outline: 0;
+    border: none;
+    -moz-outline-style: none; }
+
+.twitter {
+  position: relative;
+  background-color: #1dcaff;
+  border-radius: 50%;
+  opacity: 1; }
+  .twitter::after {
+    position: absolute;
+    font-family: "Font Awesome 5 Free", "Font Awesome 5 Brands";
+    content: "";
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%); }
+  .twitter:hover {
+    opacity: 0.6;
+    transition: opacity 0.3s ease-out; }
+  .twitter:active, .twitter:focus {
+    outline: 0;
+    border: none;
+    -moz-outline-style: none; }
+
+.instagram {
+  position: relative;
+  background-color: #e1306c;
+  border-radius: 50%;
+  opacity: 1; }
+  .instagram::after {
+    position: absolute;
+    font-family: "Font Awesome 5 Free", "Font Awesome 5 Brands";
+    content: "";
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%); }
+  .instagram:hover {
+    opacity: 0.6;
+    transition: opacity 0.3s ease-out; }
+  .instagram:active, .instagram:focus {
+    outline: 0;
+    border: none;
+    -moz-outline-style: none; }
+
+.snapchat {
+  position: relative;
+  background-color: #fffc00;
+  border-radius: 50%;
+  opacity: 1; }
+  .snapchat::after {
+    position: absolute;
+    font-family: "Font Awesome 5 Free", "Font Awesome 5 Brands";
+    content: "";
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%); }
+  .snapchat:hover {
+    opacity: 0.6;
+    transition: opacity 0.3s ease-out; }
+  .snapchat:active, .snapchat:focus {
+    outline: 0;
+    border: none;
+    -moz-outline-style: none; }
+
+/* Card Images */
+.card-img-1 {
+  background-image: url("../img/cupcakes-1.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 10.5rem; }
+
+.card-img-2 {
+  background-image: url("../img/cupcakes-2.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 10.5rem; }
+
+.card-img-3 {
+  background-image: url("../img/cupcakes-3.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 10.5rem; }
+
+.card-img-4 {
+  background-image: url("../img/pretzel-cupcakes.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 10.5rem; }
+
+.card-img-5 {
+  background-image: url("../img/chocolate-cupcake-tray.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 10.5rem; }
+
+.card-img-6 {
+  background-image: url("../img/brownie-berry-drizzle.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 10.5rem; }
+
+.card-img-7 {
+  background-image: url("../img/vanilla-cupcake-tray.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 10.5rem; }
+
+/* Media Queries */
+@media (max-width: 575.98px) {
+  #hero .display-1 {
+    font-size: 5rem !important; } }
+
+@media (max-width: 991.98px) {
+  [class^=card-img-] {
+    min-height: 20rem; }
+  .bla {
+    box-sizing: content-box; }
+  .facebook, .instagram, .twitter, .snapchat {
+    font-size: 2rem;
+    width: 3rem;
+    height: 3rem; } }

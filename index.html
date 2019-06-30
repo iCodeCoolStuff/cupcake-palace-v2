@@ -4,15 +4,275 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<link rel="icon" href="./img/logo.png">
+		<!-- Normalize.css -->
+		<link rel="./node_modules/normalize.css/normalize.css">
 		<!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <!-- Normalize.css -->
-    <link rel="./node_modules/normalize.css/normalize.css">
-
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+		<!-- Main css -->
+		<link rel="stylesheet" href="./css/main.css">
 		<title>Cupcake Palace</title>
 	</head>
 	<body>
-	</body>
+		<!-- Navbar -->
+		<nav class="navbar navbar-expand-lg fixed-top navbar-light">
+			<a class="navbar-brand d-flex align-items-center" href="#">
+				<img class="logo" src="img/logo.png">
+				<span class="pl-1 cursive">Cupcake Palace</span>
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<div class="navbar-nav ml-auto">
+					<a href="#" class="nav-item nav-link">Home</a>
+					<a href="#" class="nav-item nav-link">Bakery</a>
+					<a href="#" class="nav-item nav-link">Delivery</a>
+					<a href="#" class="nav-item nav-link">Find Us</a>
+				</div>
+			</div>
+    </nav>
+    <!-- Hero -->
+    <div id="hero" class="container-fluid d-flex justify-content-center align-items-center text-center text-white">
+      <div>
+        <h1 class="display-1 mt-2 cursive">Cupcake Palace</h1>
+        <div class="position-relative hero-desc">
+          <p class="lead">Our world-class cupcakes attract customers from around the world</p>
+          <a class="hero-button d-inline-block" href="#">Learn More</a>
+        </div>
+      </div>
+    </div>
+    <!-- Intro -->
+    <div id="intro" class="container-fluid d-flex justify-content-around">
+      <div class="container">
+        <div class="row h-100 py-4 py-lg-5">
+          <div class="col-xs-12 col-lg-6 bla py-3 py-lg-0">
+            <div class="card h-100">
+              <div class="card-img-1"></div>
+              <div class="px-3 py-2 h-100 d-flex flex-column">
+                <h5 class="card-title cursive">Our Shop</h5>
+                <div class="d-flex h-100 flex-column justify-content-between">
+                  <p class="card-text">At Cupcake Palace, our cupcakes are baked fresh and handcrafted from only the finest of
+                    ingredients. We offer cupcakes, cookies, and to-go boxes. They are perfect for every occasion.
+                  </p>
+                  <a href="#" class="button mx-auto align-self-end">See Our Products</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-lg-3 bla py-3 py-lg-0">
+            <div class="card h-100">
+              <div class="card-img-2"></div>
+              <div class="px-3 py-2 h-100 d-flex flex-column">
+                <h5 class="card-title cursive">Delivery</h5>
+                <div class="d-flex h-100 flex-column justify-content-between">
+                  <p class="card-text">Part of what makes us the best cupcake shop around is our lightning-fast delivery. All of our cupcakes are baked
+                    and sent directly to your door the same day. 
+                  </p>
+                  <a href="#" class="button mx-auto align-self-end">Order Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-lg-3 bla py-3 py-lg-0">
+            <div class="card h-100">
+              <div class="card-img-3"></div>
+              <div class="px-3 py-2 h-100 d-flex flex-column">
+                <h5 class="card-title cursive">Locations</h5>
+                <div class="d-flex h-100 flex-column justify-content-between">
+                  <p class="card-text">We have several shops located around the USA. Party planning is as simple as 1-2-3. Call into one
+                    of our shops and schedule one today!
+                  </p>
+                  <a href="#" class="button mx-auto align-self-end">Find Us</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Testimonials -->
+    <div id="testimonials" class="container-fluid">
+      <div class="container">
+        <div class="row py-3 py-lg-5">
+          <div class="col-xs-12 col-lg-3 bla py-3 py-lg-0">
+            <div class="card">
+              <div class="card-img-4"></div>
+              <div class="px-3 py-2 h-100 d-flex flex-column">
+                <h5 class="card-title cursive">Pretzel Cupcakes</h5>
+                <div class="d-flex align-items-center pb-2">
+                  <p class="rating five-star-rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </p>
+                    <span class="text-muted pl-2">8 reviews</span>
+                </div>
+                <div class="d-flex h-100 flex-column justify-content-between">
+                  <p class="card-text"><i class="fas fa-quote-left"></i> The pretzel cupcakes are amazing!!!
+                  The cinnamon sugar on top tastes soooo good and leaves you begging for more!</p>
+                  <div class="d-flex align-items-center justify-content-center flex-wrap">
+                    <p class="pill">
+                      <img class="rounded-circle person" src="./img/person-3.jpeg">
+                      Taylor
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-lg-3 bla py-3 py-lg-0">
+            <div class="card">
+              <div class="card-img-5"></div>
+              <div class="px-3 py-2 h-100 d-flex flex-column">
+                <h5 class="card-title cursive">Chocolate Cupcake Tray</h5>
+                <div class="d-flex align-items-center pb-2">
+                  <p class="rating five-star-rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </p>
+                    <span class="text-muted pl-2">5 reviews</span>
+                </div>
+                <div class="d-flex h-100 flex-column justify-content-between">
+                  <p class="card-text"><i class="fas fa-quote-left"></i> I ordered some cupcakes online during the night,
+                  and first thing the next morning, they were on my stairstep! I can't believe the amazing service!</p>
+                  <div class="d-flex align-items-center justify-content-center flex-wrap">
+                    <p class="pill">
+                      <img class="rounded-circle person" src="./img/person-1.jpeg">
+                      Christine
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-lg-3 bla py-3 py-lg-0">
+            <div class="card">
+              <div class="card-img-6"></div>
+              <div class="px-3 py-2 h-100 d-flex flex-column">
+                <h5 class="card-title cursive">Brownie Berry Drizzle</h5>
+                <div class="d-flex align-items-center pb-2">
+                  <p class="rating four-star-rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star four-half-star"></i>
+                  </p>
+                    <span class="text-muted pl-2">4 reviews</span>
+                </div>
+                <div class="d-flex h-100 flex-column justify-content-between">
+                  <p class="card-text"><i class="fas fa-quote-left"></i> A friend of mine reccomended 
+                  some of these to me. I gotta say, these are some of the best cookies I've had in such a long time.</p>
+                  <div class="d-flex align-items-center justify-content-center flex-wrap">
+                    <p class="pill">
+                      <img class="rounded-circle person" src="./img/person-2.jpeg">
+                      John
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-lg-3 bla py-3 py-lg-0">
+            <div class="card">
+              <div class="card-img-7"></div>
+              <div class="px-3 py-2 d-flex h-100 flex-column">
+                <h5 class="card-title cursive">Vanilla Cupcake Tray</h5>
+                <div class="d-flex align-items-center pb-2">
+                  <p class="rating five-star-rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </p>
+                    <span class="text-muted pl-2">6 reviews</span>
+                </div>
+                <div class="d-flex justify-content-between flex-column h-100">
+                  <p class="card-text"><i class="fas fa-quote-left"></i> Despite these cupcakes sitting in a tray,
+                    they taste just like they were fresh from the oven! These are definitely worth coming back for!</p>
+                  <div class="d-flex align-items-center justify-content-center flex-wrap">
+                    <p class="pill">
+                      <img class="rounded-circle person" src="./img/person-4.jpeg">
+                      Ana
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="newsletter" class="container-fluid">
+      <div class="container">
+        <div class="border-box my-4 p-3 pink-border">
+          <div class="text-center">
+            <h2 class="cursive">Subscribe to our newsletter</h2>
+            <p>Be the first to be notified when we have new flavors or limited-time specials</p>
+          </div>
+          <form>
+            <div class="form-row d-flex align-items-center">
+              <div class="col-xs-12 col-lg-5 bla py-1 py-lg-0">
+                <input type="text" class="form-control" placeholder="First Name">
+              </div>
+              <div class="col-xs-12 col-lg-5 bla py-1 py-lg-0">
+                <input type="email" class="form-control" placeholder="Email">
+              </div>
+              <div class="col-xs-12 col-lg-2 bla pt-2 py-lg-0">
+                <button type="submit" class="button mx-auto">subscribe</button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <footer class="container-fluid p-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-lg-4 bla py-4 py-lg-0 align-self-start">
+            <a class="d-flex align-items-center justify-content-center" href="./index.html">
+              <img src="./img/cupcake-logo-mini-white.png">
+              <span class="footer-title pl-1 cursive">Cupcake Palace</span>
+            </a>
+            <hr>
+            <p>123-456-7890</p>
+            <p>email@example.com</p>
+            <p>1600 Amphitheatre Parkway</p>
+            <p>Mountain View, California 94043</p>
+          </div>
+          <div class="col-xs-12 col-lg-4 bla py-4 py-lg-0 align-self-start">
+              <p class="footer-title cursive">Our Hours</p>
+            <hr>
+              <p>Monday-Friday: 8:00am - 10:00pm</p>
+              <p>Saturday: 10:00am - 6:00pm</p>
+              <p>Sunday: Closed</p>
+          </div>
+          <div class="col-xs-12 col-lg-4 bla py-4 py-lg-0 align-self-start">
+            <p class="footer-title cursive">Follow Us</p>
+            <hr>
+            <ul class="p-0">
+              <li><a href="#" class="mx-2 facebook"></a></li>
+              <li><a href="#" class="mx-2 twitter"></a></li>
+              <li><a href="#" class="mx-2 instagram"></a></li>
+              <li><a href="#" class="mx-2 snapchat"></a></li>
+            </ul>           
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="text-center text-white">&copy; Cupcake Palace 2019</div>
+    </div>
+  </footer>
+  </body>
+  <!---->
 	<!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
