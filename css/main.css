@@ -286,6 +286,10 @@ footer {
   min-height: 10.5rem; }
 
 /* Media Queries */
+@media (max-width: 575.98px) {
+  #hero .display-1 {
+    font-size: 5rem !important; } }
+
 @media (max-width: 991.98px) {
   [class^=card-img-] {
     min-height: 20rem; }
