@@ -51,6 +51,10 @@ $font-color: #4a4a4a;
 
 /* End Mixins */
 
+html {
+  scroll-behavior: smooth;
+}
+
 nav {
   background-color: white;
   box-shadow:0 0 3rem 0 #888888;

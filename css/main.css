@@ -4,6 +4,9 @@
 /* End Variables */
 /* Mixins */
 /* End Mixins */
+html {
+  scroll-behavior: smooth; }
+
 nav {
   background-color: white;
   box-shadow: 0 0 3rem 0 #888888; }
